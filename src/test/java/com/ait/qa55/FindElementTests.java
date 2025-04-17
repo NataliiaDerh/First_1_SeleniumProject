@@ -166,5 +166,10 @@ public class FindElementTests {
         driver.findElement(By.xpath("//h1/following-sibling::*")); // найдет ВСЕХ последующих братьев-сестер
         driver.findElement(By.xpath("//h1/following-sibling::h2")); // найдет конкретного брата-сестру h2
         driver.findElement(By.xpath("//h1/following-sibling::form")); // найдет конкретного брата-сестру form
+
+
+        //LESSON 18 Thursday 04/10/25
+        //preceding -sibling
+        driver.findElement(By.xpath("//h2/preceding-sibling::*"));
     }
 }
